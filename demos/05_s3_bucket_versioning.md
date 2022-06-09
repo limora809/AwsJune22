@@ -4,7 +4,7 @@
 
 1. Enable versioning on your bucket bucket.
 2. Create lifecycle rule to manage non-current versions of your objects:
-   1. Move noncurrent versions of objects to Standard-AI storage class
+   1. Move noncurrent versions of objects to Standard-IA storage class
    2. Permanently delete noncurrent versions of objects after 90 days
 
 --- 
