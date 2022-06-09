@@ -15,9 +15,9 @@
 
 2. Choose **Create volume**\.
 
-3. For **Volume type**, choose General Purpose SSD\. For more information, see [Amazon EBS volume types](ebs-volume-types.md)\.
+3. For **Volume type**, choose General Purpose SSD\. For more information, see [Amazon EBS volume types](https://docs.aws.amazon.com/AWSEC2/latest/WindowsGuide/ebs-volume-types.html)\.
 
-4. For **Size**, enter 10GiB\. For more information, see [Constraints on the size and configuration of an EBS volume](volume_constraints.md)\.
+4. For **Size**, enter 10GiB\. For more information, see [Constraints on the size and configuration of an EBS volume](https://docs.aws.amazon.com/AWSEC2/latest/WindowsGuide/volume_constraints.html)\.
 
 5. For **Availability Zone**, choose the same Availability Zone of your EC2 instance.
 
@@ -27,7 +27,7 @@
    **Note**  
    The volume is ready for use when the **Volume state** is **available**\.
 
-8. To use the volume, attach it to an instance\. For more information, see [Attach an Amazon EBS volume to an instance](ebs-attaching-volume.md)\.
+8. To use the volume, attach it to an instance\. For more information, see [Attach an Amazon EBS volume to an instance](https://docs.aws.amazon.com/AWSEC2/latest/WindowsGuide/ebs-attaching-volume.html)\.
 
 
 ## Format and mount the volume 
