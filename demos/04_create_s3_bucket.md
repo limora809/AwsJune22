@@ -29,9 +29,10 @@
 
 5. Under **Object Ownership**, leave ACLs disabled.
 
+7. Enable Default encryption with SSE-S3 encryption type.
+
 6. Choose **Create bucket**.
 
-7. Enable Default encryption with SSE-S3 encryption type.
 
 You've created a bucket in Amazon S3.
 

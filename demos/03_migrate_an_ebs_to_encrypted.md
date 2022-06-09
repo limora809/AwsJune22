@@ -10,4 +10,4 @@
 #### Extension
 
 5. In KMS page, disable your encryption key. What happened to the data in your instance?
-6. top the machine and start it again, [what happened](https://docs.aws.amazon.com/kms/latest/developerguide/services-ebs.html#ebs-cmk) to the data in your instance?
+6. Stop the machine and start it again, [what happened](https://docs.aws.amazon.com/kms/latest/developerguide/services-ebs.html#ebs-cmk) to the data in your instance?
