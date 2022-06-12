@@ -7,7 +7,7 @@ import os
 print(os.environ)
 
 
-branch_name = 'answers/alonit'
+branch_name = os.environ['CODEBUILD_WEBHOOK_HEAD_REF']
 bucket_name = 'alonitbucket2022'
 
 
