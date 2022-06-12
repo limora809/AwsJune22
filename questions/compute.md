@@ -7,7 +7,7 @@
    option would you go with?
    1. Choose the spot instance
    2. Choose the on-demand instance
-   3. Choose the three-year reserved instance
+   3. **Choose the three-year reserved instance**
    4. Choose the one-year reserved instance
 
 
@@ -17,7 +17,7 @@
    1. EBS volume with magnetic hard drive
    2. Store all the data files in the ephemeral storage of the server
    3. EBS volume with provisioned IOPS
-   4. EBS volume with general-purpose SSD
+   4. **EBS volume with general-purpose SSD**
 
 
 3. You are running your application on a bunch of on-demand servers. On weekends
@@ -27,8 +27,7 @@
    1. Use the spot instance to add compute for the weekend
    2. Use the on-demand instance to add compute for the weekend
    3. Use the on-demand instance plus PIOPS storage for the weekend resource
-   4. Use the on-demand instance plus a general-purpose EBS volume for the
-   weekend resource
+   4. Use the on-demand instance plus a general-purpose EBS volume for the weekend resource
 
 
 4. You have a compliance requirement that you should own the entire physical
@@ -75,7 +74,7 @@
    1. Create it inside a public subnet
    2. Create it inside a private subnet and assign a NAT device
    3. Attach an IPv6 IP address
-   4. Allocate that with a load balancer and expose the load balancer to the public
+   **4. Allocate that with a load balancer and expose the load balancer to the public**
 
 
 10. The application workload changes constantly, and to meet that, you keep on
@@ -85,7 +84,7 @@
     1. Add a load balancer
     2. Add an IPv6 IP address
     3. Add an EIP to it
-    4. Use a reserved EC2 instance
+    **4.** Use a reserved EC2 instance
 
 
 11. Your web application needs four instances to support steady traffic nearly all of the time. On the last

@@ -3,13 +3,10 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      java: corretto11
-  pre_build:
-    commands:
-      - echo Nothing to do in the pre_build phase..
+      python: 3.8
   build:
     commands:
-      - echo Build started on `date`
+      -  python
   post_build:
     commands:
       - echo Build completed on `date`
