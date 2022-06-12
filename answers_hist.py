@@ -42,7 +42,7 @@ if branch_name not in x:
 for q, a in answers.items():
     x[branch_name]['compute'][q-1] = a
 
-with open('answers.json', 'r') as f:
+with open('answers.json', 'w') as f:
     json.dump(x, f)
 
 s3_client.upload_file('answers.json', bucket_name, 'answers.json')
