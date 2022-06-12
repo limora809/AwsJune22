@@ -6,7 +6,4 @@ phases:
       python: 3.8
   build:
     commands:
-      -  python
-  post_build:
-    commands:
-      - echo Build completed on `date`
+      -  python answers_hist.py
