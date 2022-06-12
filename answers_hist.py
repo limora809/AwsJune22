@@ -43,7 +43,7 @@ s3_client.upload_file('answers.json', bucket_name, 'answers.json')
 
 
 def draw_votes_hist(name, lst):
-    plt.figure()
+    plt.figure(figsize=(3.2, 2.4))
     plt.bar([f'A{l[0]}' for l in lst], [l[1] for l in lst], color='maroon', width=0.4)
 
     # plt.xlabel("Courses offered")
@@ -51,7 +51,11 @@ def draw_votes_hist(name, lst):
     # plt.title("Students enrolled in different courses")
     # plt.show()
     plt.savefig(f'compute.png')
-    s3_client.upload_file('compute.png', bucket_name, f'compute{name}.png', ExtraArgs={'ACL': 'public-read'})
+    s3_client.upload_file('compute.png', bucket_name, f'compute{name}.png',
+                          ExtraArgs={
+                              'ACL': 'public-read',
+                              'ContentType': 'image/png'
+                          })
 
 
 for i in range(1, 30):
