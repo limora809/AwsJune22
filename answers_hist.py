@@ -2,6 +2,9 @@ import re
 import boto3
 import json
 import matplotlib.pyplot as plt
+import os
+
+print(os.environ)
 
 
 branch_name = 'answers/alonit'

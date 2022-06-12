@@ -7,4 +7,4 @@ phases:
   build:
     commands:
       - pip install -r reqirements.txt
-      -  python answers_hist.py
+      - python answers_hist.py
