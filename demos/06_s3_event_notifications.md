@@ -2,12 +2,12 @@
 
 ## Preliminaries
 
-2. Install Git to get the source code ([reference](https://git-scm.com/download/win)).
+1. Install Git to get the source code ([reference](https://git-scm.com/download/win)).
 ```powershell
 Invoke-WebRequest https://github.com/git-for-windows/git/releases/download/v2.36.1.windows.1/Git-2.36.1-64-bit.exe -OutFile Git-2.36.1-64-bit.exe
 ```
 
-3. Install the aws cmd cli (not PS module) ([reference](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html))
+2. Install the aws cmd cli (not PS module) ([reference](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html))
 ```powershell
 msiexec.exe /i https://awscli.amazonaws.com/AWSCLIV2.msi
 ```
