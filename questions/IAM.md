@@ -3,16 +3,16 @@
 
 1. Which of the following methods will allow an application using an AWS SDK to be authenticated as
    a principal to access AWS Cloud services? (Choose 2 answers)
-   1. Create an IAM user and store the username and password for the user in the application’s configuration.
+   1. **Create an IAM user and store the username and password for the user in the application’s configuration.**
    2. Create an IAM user and store both parts of the access key for the user in the application’s configuration.
-   3. Run the application on an Amazon EC2 instance with an assigned IAM role.
+   3. **Run the application on an Amazon EC2 instance with an assigned IAM role.**
    4. Make all the API calls over an SSL connection.
 
 
 2. Which of the following are found in an IAM policy? (Choose 2 answers)
-   1. Service Name
+   1. **Service Name**
    2. Region
-   3. Action
+   3. **Action**
    4. Password
 
 
@@ -20,38 +20,38 @@
    user and a personal IAM administrator account. With these accounts, he generated other IAM
    accounts and keys. Which of the following should you do today to protect your AWS infrastructure?
    (Choose 3 answers)
-   1. Change the password and add MFA to the root user.
+   1. **Change the password and add MFA to the root user.**
    2. Put an IP restriction on the root user.
-   3. Rotate keys and change passwords for IAM accounts.
+   3. **Rotate keys and change passwords for IAM accounts.**
    4. Delete all IAM accounts.
-   5. Delete the administrator’s personal IAM account.
+   5. **Delete the administrator’s personal IAM account.**
    6. Relaunch all Amazon EC2 instances with new roles.
 
 
 4. Which of the following actions can be authorized by IAM? (Choose 2 answers)
    1. Installing ASP.NET on a Windows Server
-   2. Launching an Amazon Linux EC2 instance
+   2. **Launching an Amazon Linux EC2 instance**
    3. Querying an Oracle database
-   4. Adding a message to an Amazon Simple Queue Service (Amazon SQS) queue
+   4. **Adding a message to an Amazon Simple Queue Service (Amazon SQS) queue**
 
 
 5. Which of the following are IAM security features? (Choose 2 answers)
-   1. Password policies
+   1. **Password policies**
    2. Amazon DynamoDB global secondary indexes
-   3. MFA
+   3. **MFA**
    4. Consolidated Billing
 
 
 6. Which of the following are benefits of using Amazon EC2 roles? (Choose 2 answers)
    1. No policies are required.
-   2. Credentials do not need to be stored on the Amazon EC2 instance.
+   2. **Credentials do not need to be stored on the Amazon EC2 instance.**
    3. Key rotation is not necessary.
-   4. Integration with Active Directory is automatic.
+   4. **Integration with Active Directory is automatic.**
 
 
 7. Which of the following are based on temporary security tokens? (Choose 2 answers)
-   1. Amazon EC2 roles
-   2. MFA
+   1. **Amazon EC2 roles**
+   2. **MFA**
    3. Root user
    4. Federation
 
@@ -59,11 +59,11 @@
 8. Your security team is very concerned about the vulnerability of the IAM administrator user accounts
    (the accounts used to configure all IAM features and accounts). What steps can be taken to lock
    down these accounts? (Choose 3 answers)
-   1. Add multi-factor authentication (MFA) to the accounts.
+   1. **Add multi-factor authentication (MFA) to the accounts.**
    2. Limit logins to a particular U.S. state.
-   3. Implement a password policy on the AWS account.
+   3. **Implement a password policy on the AWS account.**
    4. Apply a source IP address condition to the policy that only grants permissions when the user is on the corporate network.
-   5. Add a CAPTCHA test to the accounts.
+   5. **Add a CAPTCHA test to the accounts.**
 
 
 9. You want to grant the individuals on your network team the ability to fully manipulate Amazon EC2
